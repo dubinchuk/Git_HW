@@ -1,1 +1,22 @@
+ID: 1
 
+Title: User registered with no upper case character in password
+
+Precondition:
+1. Web page https://anatoly-karpovich.github.io/demo-login-form/ opened
+2. User not registered
+
+Severity:
+Normal
+
+Steps to reproduce:
+1. Click on "Register" button
+2. Enter valid new user name into "Username" field, i.e. Webtester111
+3. Enter password containing valid characthers with no upper case character into "Password" field, i.e. o3n6ufo3f94k
+4. Click on "Register" button
+
+Expected result: 
+User not registered, "Password should contain at least one character in upper case" message shown
+
+Actual result: 
+User registered, "Successfully registered! Please, click Back to return on login page" message shown
