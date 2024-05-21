@@ -1,0 +1,9 @@
+AQA Course skills:
+- JavaScript
+- TypeScript
+- WebdriverIO
+- Selenium
+- API testing
+- Cucumber
+- Playwright
+- CI/CD integration
